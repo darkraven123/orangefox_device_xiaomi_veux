@@ -16,6 +16,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# Building with minimal manifest
+ALLOW_MISSING_DEPENDENCIES := true
+
 # Assertation
 TARGET_OTA_ASSERT_DEVICE := spes,spesn
 
