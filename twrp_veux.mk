@@ -16,7 +16,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Product Specifics
 PRODUCT_NAME := twrp_veux
-PRODUCT_DEVICE := veuz
+PRODUCT_DEVICE := veux
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 11 Pro+/Poco X4 Pro
 PRODUCT_MANUFACTURER := Xiaomi
