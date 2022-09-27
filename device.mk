@@ -20,7 +20,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 ALLOW_MISSING_DEPENDENCIES := true
 
 # Assertation
-TARGET_OTA_ASSERT_DEVICE := spes,spesn
+TARGET_OTA_ASSERT_DEVICE := veux,peux
 
 # API
 PRODUCT_TARGET_VNDK_VERSION := 30

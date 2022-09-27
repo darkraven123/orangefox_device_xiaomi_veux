@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/spes
+DEVICE_PATH := device/xiaomi/veux
 
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
@@ -23,7 +23,7 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 
 # Assertation
-TARGET_OTA_ASSERT_DEVICE := spes,spesn
+TARGET_OTA_ASSERT_DEVICE := veux,peux
 
 # A/B
 AB_OTA_UPDATER := true
@@ -46,7 +46,7 @@ TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
 TARGET_USE_QTI_BT_STACK := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := bengal
+TARGET_BOOTLOADER_BOARD_NAME := holi
 TARGET_NO_BOOTLOADER := true
 
 # Build Hack
@@ -122,7 +122,7 @@ TARGET_COPY_OUT_PRODUCT := product
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
-TARGET_BOARD_PLATFORM := bengal
+TARGET_BOARD_PLATFORM := holi
 
 # Power
 TARGET_USES_INTERACTION_BOOST := true

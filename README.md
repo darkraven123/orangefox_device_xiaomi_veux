@@ -1,21 +1,24 @@
-## orangefox_device_xiaomi_spes
+## orangefox_device_xiaomi_veux
 
-The Xiaomi Redmi Note 11 (codenamed _"spes"_) is a mid-range smartphone from Xiaomi announced in February 2022.
+The Xiaomi Redmi Note 11 Pro+ 5G (codenamed _"veux"_) is a mid-range smartphone from Xiaomi announced in February 2022.
 
 ## Device specifications
 
- | Device                    | Xiaomi Redmi Note 11
- --------------------------- | :------------------------------------------------------------------- |
- | SoC                       | Qualcomm SM6225 Snapdragon 680                                       |
- | CPU                       | Quad-Core 2.4 GHz Kryo 265 Gold & Quad-Core 1.9 GHz Kryo 265 Silver  |
- | GPU                       | Adreno 610                                                           |
- | Memory                    | 4/6 GB RAM                                                           |
- | Shipped Android Version   | 11.0                                                                 |
- | Storage                   | 64/128 GB (UFS 2.2)                                                  |
- | MicroSD                   | Up to 1024 GB (1 TB)                                                 |
- | Battery                   | Non-removable Li-Po 5000 mAh                                         |
- | Dimensions                | 159,87 x 73,87 x 8,09 mm                                             |
- | Display                   | 1080 x 2400 pixels, 6.43 inches (~409 ppi pixel density)             |
- | Camera                    | Main 50 MP f/1.8, ultrawide lens, macro lens, depth lens, LED flash  |
+| Device                  | Xiaomi Redmi Note 11 Pro+ 5G
+| :---------------------- | :--------------------------------                                          |
+| CPU                     | Octa-core (2x2.2 GHz Kryo 660 Gold & 6x1.7 GHz Kryo 660 Silver)            |
+| Chipset                 | Qualcomm SM6375 Snapdragon 695G (6 nm)                                     |
+| GPU                     | Adreno 619                                                                 |
+| Memory                  | 4 GB / 8 GB                                                                |
+| Shipped Software        | Android 11, MIUI 13                                                        |
+| Storage                 | 64 GB / 256 GB                                                             |
+| Battery                 | 5000 mAh                                                                   |
+| Dimensions              | 165.1 x 76.4 x 9.3 mm (6.5 x 3.01 x 0.37 in)                               |
+| Display                 | 6.67 inches, 107.4 cm2 (~86.0% screen-to-body ratio)                       |
+| Rear Camera             | 108 MP, f/1.9, 26mm (wide), 1/1.52", 0.7µm, PDAF                           |
+|                         | 8 MP, f/2.2, 118˚ (ultrawide)                                              |
+|                         | 2 MP, f/2.4, (macro)                                                       |
+| Front Camera            | 16 MP, f/2.5, (wide), 1/3.06" 1.0µm                                        |
+| Release Date            | February 2022                                                              |
 
-![Xiaomi Redmi Note 11](spes.png)
+![Xiaomi Redmi Note 11 Pro+ 5G](veux.png)
