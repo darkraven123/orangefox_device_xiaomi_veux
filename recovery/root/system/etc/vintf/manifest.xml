@@ -1,10 +1,10 @@
+
 <!--
     Input:
         manifest.xml
-        framework_manifest.xml
 -->
-<manifest version="2.0" type="framework">
-    <hal format="hidl">
+<manifest version="5.0" type="framework">
+    <hal format="hidl" max-level="6">
         <name>android.frameworks.displayservice</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -14,7 +14,7 @@
         </interface>
         <fqname>@1.0::IDisplayService/default</fqname>
     </hal>
-    <hal format="hidl">
+    <hal format="hidl" max-level="5">
         <name>android.frameworks.schedulerservice</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -88,19 +88,12 @@
         <name>netutils-wrapper</name>
         <version>1.0</version>
     </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.radio.atcmdfwd</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IAtCmdFwd</name>
-            <instance>AtCmdFwdService</instance>
-        </interface>
-        <fqname>@1.0::IAtCmdFwd/AtCmdFwdService</fqname>
-    </hal>
     <system-sdk>
         <version>28</version>
         <version>29</version>
         <version>30</version>
+        <version>31</version>
+        <version>32</version>
+        <version>33</version>
     </system-sdk>
 </manifest>
